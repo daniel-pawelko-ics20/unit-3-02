@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ICS2O-unit-3-2">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Daniel Pawelko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ICS2O-unit-3-2</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Volume of a Pyramid, with JS</h1>
+    <p>
+      <h2>Formulas</h2>
+      <h3>A = (L x W x H) / 3</h3>
+      <p>Please enter dimensions:</p>
+      <form action="javascript:userInputClick()">
+        <label for="length">Length:</label>
+        <input type="number" step=".01" id="length-entered" placeholder="e.g. 3.2">
+        <label for="length">mm</label>
+        <br>
+        <br>
+        <label for="width">Width:</label>
+        <input type="number" step=".01" id="width-entered" placeholder="e.g. 5.8">
+        <label for="width">mm</label>
+        <br>
+        <br>
+        <label for="height">Height:</label>
+        <input type="number" step=".01" id="height-entered" placeholder="e.g. 3.4">
+        <label for="height">mm</label>
+        <br>
+        <br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+    <div id="volume"></div>
+  </body>
+</html>
